@@ -72,8 +72,8 @@ namespace ConsoleApplication1
                     IsActive = true
                 };
 
-                person.Phones.Add(new Phone{ PhoneNumber = "01008909322 " });
-                person.Phones.Add(new Phone{ PhoneNumber = "5039532 " });
+                person.Phones.Add(new Phone{ PhoneNumber = "01023456789 " });
+                person.Phones.Add(new Phone{ PhoneNumber = "123345566 " });
 
                 context.People.Add(person);
                 context.SaveChanges();
